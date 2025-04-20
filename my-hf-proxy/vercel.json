@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "api/hf.js",
+            "use": "@vercel/node"
+        }
+    ]
+}
