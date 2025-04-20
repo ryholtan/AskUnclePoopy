@@ -1,0 +1,92 @@
+body {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #00274d;
+    color: white;
+    margin: auto;
+    max-width: 900px;
+}
+
+.landing-header h1 {
+    font-size: 3rem;
+    margin-top: 40px;
+    color: #ffcc00;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.faq-section h2 {
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
+.accordion {
+    text-align: left;
+}
+
+.accordion-item {
+    background-color: #013366;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px black;
+    overflow: hidden;
+}
+
+.accordion-header {
+    background-color: #014b8a;
+    color: #ffcc00;
+    padding: 15px 20px;
+    font-size: 1.2rem;
+    width: 100%;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.accordion-header:hover {
+    background-color: #0260b3;
+}
+
+.accordion-body {
+    padding: 15px 20px;
+    display: none;
+    animation: fadeIn 0.3s ease-in;
+}
+
+.accordion-body p,
+.accordion-body ul {
+    margin: 0 0 10px 0;
+}
+
+.accordion-body ul {
+    padding-left: 20px;
+}
+
+.accordion-body a {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .accordion-body,
+    .accordion-header {
+        font-size: 1rem;
+    }
+}
