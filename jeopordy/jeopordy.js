@@ -28,8 +28,7 @@ async function sendMessage() {
     const userMessage = document.getElementById("userInput").value;
 
     // Replace with your Hugging Face Space name
-    const space = "none-yet/Xylaria";
-    const endpoint = `https://huggingface.co/${space}/api/predict`;
+    const endpoint = `https://ask-uncle-poopy-reulhbu60-ryans-projects-404e8667.vercel.app`;
 
     // This matches the `/streaming_response_1` API
     const body = {
